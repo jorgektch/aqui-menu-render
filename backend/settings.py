@@ -61,7 +61,7 @@ MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware'] + MIDDLEWARE
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://frontend.tu-dominio.com",
-    "https://aqui-project-as2v-9omwj85bv.vercel.app/",
+    "https://aqui-project-as2v-9omwj85bv.vercel.app",
 ]
 
 REST_FRAMEWORK = {
