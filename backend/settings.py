@@ -58,11 +58,14 @@ MIDDLEWARE = [
 MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware'] + MIDDLEWARE
 
 # Orígenes permitidos (aquí pueden agregar las URLs del frontend)
+"""
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://frontend.tu-dominio.com",
     "https://aqui-project-as2v-9omwj85bv.vercel.app",
 ]
+"""
+CORS_ALLOW_ALL_ORIGINS = True
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
